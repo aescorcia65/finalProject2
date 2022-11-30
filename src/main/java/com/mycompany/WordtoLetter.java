@@ -171,7 +171,7 @@ public class WordtoLetter {
                 break;
             
             case 's':
-                list.add(new S("upper",random.nextInt(256),random.nextInt(256),random.nextInt(256),"Comic Sans MS"));
+                list.add(new S("lower",random.nextInt(256),random.nextInt(256),random.nextInt(256),"Comic Sans MS"));
                 break;
 
             case 'T':
@@ -211,7 +211,7 @@ public class WordtoLetter {
                 break;
               
             case 'y':
-                list.add(new Y("Upper",random.nextInt(256),random.nextInt(256),random.nextInt(256),"Comic Sans MS"));
+                list.add(new Y("lower",random.nextInt(256),random.nextInt(256),random.nextInt(256),"Comic Sans MS"));
                 break;
             
             case 'Z':
@@ -231,7 +231,7 @@ public class WordtoLetter {
 
 
             default:
-                list.add(new H("lower",random.nextInt(256),random.nextInt(256),random.nextInt(256)," "));
+                list.add(new Space());
                 break;
 
 
