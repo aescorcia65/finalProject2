@@ -2,6 +2,7 @@ package com.mycompany;
 
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Objects;
 import java.util.ResourceBundle;
 
 import javafx.fxml.FXML;
@@ -31,7 +32,7 @@ public class PrimaryController implements Initializable {
         ArrayList<Letters> list = wl.split(textbox.getText());
         
         for (int i = 0; i < list.size(); i++){
-            flow.getChildren().add(list.get(i).getLabel());
+            flow.getChildren().add((list.get(i)).getLabel());
             list.get(i).anim();
         }
 //        for (Letters let: arr){
