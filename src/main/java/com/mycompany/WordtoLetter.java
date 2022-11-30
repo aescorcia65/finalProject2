@@ -222,6 +222,11 @@ public class WordtoLetter {
                 list.add(new Z("lower",random.nextInt(256),random.nextInt(256),random.nextInt(256),"Comic Sans MS"));
                 break;
 
+
+            case ' ':
+                list.add(new Space());
+                break;
+
             
 
 
