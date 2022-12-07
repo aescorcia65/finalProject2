@@ -1,1 +1,1 @@
-# This is our final project
+This project was made my Andrew Escorcia and Matt Dinuzzo. This is our "Hello World" projects that implements polymorphism, inheritance, and a GUI. We developed it further than just "Hello World", the user can input and alpahbet charater and it will be displayed on the GUI in a unique way each time. Go check it out.
